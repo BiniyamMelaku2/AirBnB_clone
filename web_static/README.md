@@ -47,7 +47,7 @@ Read or watch:
   Write an HTML page that displays a header and a footer.
 
 Layout:
-
+```
 * Body:
 	no margin
 	no padding
@@ -61,7 +61,7 @@ Layout:
 	width: 100%
 	text [ Holberton School ] center vertically and horizontally
 	always at the bottom at the page
-
+```
 Requirements:
 
 * You must use the header and footer tags
@@ -89,17 +89,17 @@ Requirements:
 * You must use the header and footer tags
 * No inline styling
 * You must have 3 CSS files:
-	styles/2-common.css: for global style (i.e. the body style)
+```	styles/2-common.css: for global style (i.e. the body style)
 	styles/2-header.css: for header style
 	styles/2-footer.css: for footer style
-
+```
 The layout must be exactly the same as 1-index.html
 
 ## 3. Zoning done!  [  ]
   Write an HTML page that displays a header and footer by using CSS files (same as 2-index.html)
 
 Layout:
-
+```
 * Common:
 	no margin
 	no padding
@@ -120,7 +120,7 @@ Layout:
 	border top 1px #CCCCCC
 	text Holberton School center vertically and horizontally
 	always at the bottom at the page
-
+```
 Requirements:
 
 * No inline style
@@ -128,15 +128,15 @@ Requirements:
 * You are not allowed to use the style tag in the head tag
 * All images must be stored in the images folder
 * You must have 3 CSS files:
-	styles/3-common.css: for the global style (i.e body style)
+```	styles/3-common.css: for the global style (i.e body style)
 	styles/3-header.css: for the header style
 	styles/3-footer.css: for the footer style
-
+```
 ## 4. Search!  [ 4-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/4-filters.css, images/ ]
   Write an HTML page that displays a header, footer and a filters box with a search button.
 
 Layout: (based on 3-index.html)
-
+```
 * Container:
 	between header and footer tags, add a div:
 		classname: container
@@ -164,6 +164,7 @@ Layout: (based on 3-index.html)
 	border radius: 4px
 	center vertically and at 30px of the right border
 	change opacity to 90% when the mouse is on the button
+```
 Requirements:
 
 * You must use: header, footer, section, button tags
@@ -172,17 +173,18 @@ Requirements:
 *You are not allowed to use the style tag in the head tag
 * All images must be stored in the images folder
 * You must have 4 CSS files:
-	styles/4-common.css: for the global style (body and .container styles)
+```	styles/4-common.css: for the global style (body and .container styles)
 	styles/3-header.css: for the header style
 	styles/3-footer.css: for the footer style
 	styles/4-filters.css: for the filters style
+```	
 * 4-index.html won’t be W3C valid, don’t worry, it’s temporary
 
 ## 5. More filters  [ 5-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/5-filters.css, images/ ]
   Write an HTML page that displays a header, footer and a filters box.
 
 Layout: (based on 4-index.html)
-
+```
 * Locations and Amenities filters:
 	tag: div
 	classname: locations for location tag and amenities for the other
@@ -199,6 +201,7 @@ Layout: (based on 4-index.html)
 		font weight: 400
 		font size: 14px
 		text with fake contents
+```
 Requirements:
 
 * You must use: header, footer, section, button, h3, h4 tags
@@ -207,16 +210,17 @@ Requirements:
 * You are not allowed to use the style tag in the head tag
 * All images must be stored in the images folder
 * You must have 4 CSS files:
+```
 	styles/4-common.css: for the global style (body and .container styles)
 	styles/3-header.css: for the header style
 	styles/3-footer.css: for the footer style
 	styles/5-filters.css: for the filters style
-
+```
 ## 6. It's (h)over  [ 6-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, images/ ]
   Write an HTML page that displays a header, footer and a filters box with dropdown.
 
 Layout: (based on 5-index.html)
-
+```
 * Update Locations and Amenities filters to display a contextual dropdown when the mouse is on the filter div:
 	tag ul
 	classname popover
@@ -230,6 +234,7 @@ Layout: (based on 5-index.html)
 	Location filter has 2 levels of ul/li:
 		state -> cities
 		state name must be display in a h2 tag (font size 16px)
+```
 Requirements:
 
 * You must use: header, footer, section, button, h3, h4, ul, li tags
@@ -238,16 +243,17 @@ Requirements:
 * You are not allowed to use the style tag in the head tag
 * All images must be stored in the images folder
 * You must have 4 CSS files:
-	styles/4-common.css: for the global style (body and .container styles)
+```	styles/4-common.css: for the global style (body and .container styles)
 	styles/3-header.css: for the header style
 	styles/3-footer.css: for the footer style
 	styles/6-filters.css: for the filters style
+```
 
 ## 7. Display results
   Write an HTML page that displays a header, footer, a filters box with dropdown and results.
 
 Layout: (based on 6-index.html)
-
+```
 * Add Places section:
 	tag: section
 	classname: places
@@ -266,6 +272,7 @@ Layout: (based on 6-index.html)
 			tag: h2
 			font size: 30px
 			center horizontally
+```
 Requirements:
 
 * You must use: header, footer, section, article, button, h1, h2, h3, h4, ul, li tags
@@ -274,11 +281,13 @@ Requirements:
 * You are not allowed to use the style tag in the head tag
 * All images must be stored in the images folder
 * You must have 5 CSS files:
-	styles/4-common.css: for the global style (i.e. body and .container styles)
+```	styles/4-common.css: for the global style (i.e. body and .container styles)
 	styles/3-header.css: for the header style
 	styles/3-footer.css: for footer style
 	styles/6-filters.css: for the filters style
-	styles/7-places.css: for the places style
+	styles/7-places.css: for the places style    
+```
+
 	
 ## 8. More details  [ 8-index.html, styles/4-common.css, styles/3-header.css, styles/3-footer.css, styles/6-filters.css, styles/8-places.css, images/ ]
 
@@ -287,7 +296,7 @@ Write an HTML page that displays a header, a footer, a filter box (dropdown list
 Layout: (based on 7-index.html)
 
 Add more information to a Place article:
-
+```
 * Price by night:
 	tag: div
 	classname: price_by_night
@@ -322,14 +331,17 @@ align: the top right (with space)
 			width: 100px
 			fake text
 			icon
+```
 * User section:
-	tag: div
+```	tag: div
 	classname: user
 	text Owner: <fake text>
 	Owner text should be in bold
+```
 * Description section:
-	tag: div
+```	tag: div
 	classname: description
+```
 Requirements:
 
 * You must use: header, footer, section, article, button, h1, h2, h3, h4, ul, li tags
@@ -338,8 +350,10 @@ Requirements:
 * You are not allowed to use the style tag in the head tag
 * All images must be stored in the images folder
 * You must have 5 CSS files:
+```
 	styles/4-common.css: for the global style (i.e. body and .container styles)
 	styles/3-header.css: for the header style	
 	styles/3-footer.css: for the footer style
 	styles/6-filters.css: for the filters style
 	styles/8-places.css: for the places style	
+```	
